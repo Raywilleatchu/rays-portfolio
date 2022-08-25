@@ -1,0 +1,13 @@
+.App
+{
+    color:bisque;
+}
+
+
+.App-Header
+{
+    color:blue; 
+    font: message-box; 
+    position: relative; 
+    top: 10px;
+}
