@@ -1,10 +1,27 @@
-import nms from "../img/nms.png";
-export default function MainDisplay(){
+import { Home } from './Home.js';
+import "../css/MainDisplay.css";
+import { Routes, Route } from 'react-router-dom';
+import { About } from './About.js';
+import { Portfolio } from './Portfolio.js';
+import { Resume } from './Resume.js';
+import { NavBar } from './NavBar.js';
+
+export const MainDisplay = () =>
+{
     return (
-        <div style={{backgroundImage: `url(${nms})`, backgroundPosition: "center", backgroundSize: "cover", backgroundRepeat: "no-repeat", width: "100vw", height: "100vh", overflow: "hidden"}}>
-            <div style={{position: "relative", fontSize: "100px", left: "400px", zindex: "1"}}>
-                hello
-            </div>
-        </div>
-    )
+        <>
+            <NavBar />
+            <Routes>
+                <Route path='/' element={<Home />}/>
+                <Route path='about' element={<About />}/>
+                <Route path='portfolio' element={<Portfolio />}/>
+                <Route path='resume' element={<Resume />}/>
+            </Routes>
+        </>
+    );
 }
+
+// export default function SwitchPage(e)
+// {
+    
+// }

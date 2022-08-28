@@ -1,14 +1,13 @@
 import React from 'react'
 import '../css/App.css';
-import NavBar from './NavBar';
-import MainDisplay from "./MainDisplay"
+import { MainDisplay } from "./MainDisplay"
+import { NavBar } from './NavBar';
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <MainDisplay />
-    </div>
+      <>
+        <MainDisplay />
+      </>
   );
 }
 
