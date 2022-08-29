@@ -9,7 +9,7 @@ import { NavBar } from './NavBar.js';
 export const MainDisplay = () =>
 {
     return (
-        <>
+        <div style={{overflow: "auto"}}>
             <NavBar />
             <Routes>
                 <Route path='/' element={<Home />}/>
@@ -17,11 +17,6 @@ export const MainDisplay = () =>
                 <Route path='portfolio' element={<Portfolio />}/>
                 <Route path='resume' element={<Resume />}/>
             </Routes>
-        </>
+        </div>
     );
 }
-
-// export default function SwitchPage(e)
-// {
-    
-// }
