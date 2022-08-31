@@ -9,7 +9,7 @@ import { NavBar } from './NavBar.js';
 export const MainDisplay = () =>
 {
     return (
-        <div style={{overflow: "auto"}}>
+        <div style={{overflowY: "auto"}}>
             <NavBar />
             <Routes>
                 <Route path='/' element={<Home />}/>
