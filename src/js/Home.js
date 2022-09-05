@@ -1,15 +1,25 @@
-import nms from "../img/nms.png";
-import '../css/Home.css';
+import { Link } from "react-router-dom";
+import nms from "../assets/img/nms.png";
+import '../css/Home.scss';
 
 export const Home = () => {
     return(
-        <div style={{backgroundImage: `url(${nms})`, backgroundPosition: "left", backgroundSize: "cover", backgroundRepeat: "no-repeat", width: "100vw", height: "100vh", overflow: "hidden"}}>
-            <div style={{position: "relative", fontSize: "50px", left: "400px", top: "20pc", color: "white"}}>
-                Raymond Mansour <br/>
-                <div>
-                    <p style={{fontSize: "20px"}}>Software Engineer</p>
-                </div>
+        <div className="container home-page">
+            <div className="text-zone">
+                <h1>
+                    Hi, 
+                    <br/> 
+                    <h2>I'm Raymond Mansour</h2>
+                    Software Engineer
+                    <br/>
+                </h1>
+
+                <h2>
+                    Fullstack Developer / Database Engineer
+                </h2>
+                <Link to='/about' className='flast-button'>CONTACT ME</Link>
             </div>
+
         </div>
     );
 }  

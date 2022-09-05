@@ -1,12 +1,25 @@
 import React from 'react'
-import '../css/App.css';
+import '../css/App.scss';
 import { MainDisplay } from "./MainDisplay";
+import { Home } from './Home.js';
+import "../css/MainDisplay.scss";
+import { Routes, Route } from 'react-router-dom';
+import { About } from './About.js';
+import { Portfolio } from './Portfolio.js';
+import { Resume } from './Resume.js';
 
 function App() {
   return (
-      <div>
-        <MainDisplay />
-      </div>
+    <>
+      <Routes>
+        <Route path='/' element={<MainDisplay />}>
+          <Route index element={<Home />}/>
+          <Route path='about' element={<About />}/>
+          <Route path='portfolio' element={<Portfolio />}/>
+          <Route path='resume' element={<Resume />}/>
+        </Route>
+      </Routes>
+    </>
   );
 }
 
