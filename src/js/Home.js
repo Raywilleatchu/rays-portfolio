@@ -7,13 +7,9 @@ export const Home = () => {
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
-                    Hi, 
-                    <br/> 
-                    <h2>I'm Raymond Mansour</h2>
+                    <h2>Hi, I'm Raymond Mansour</h2>
                     Software Engineer
-                    <br/>
                 </h1>
-
                 <h2>
                     Fullstack Developer / Database Engineer
                 </h2>

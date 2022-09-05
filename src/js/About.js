@@ -17,24 +17,6 @@ export const About = () => {
                         </p>
                     </div>
                 </div>
-                <div className="emptyDiv">
-                    <h1>empty</h1>
-                </div>
-                <div className="linkContainer">
-                    <div>
-                        <a>Link 1</a>
-                    </div>
-                    <br/>
-                    <br/>
-                    <div>
-                        <a>Link 2</a>
-                    </div>
-                    <br/>
-                    <br/>
-                    <div>
-                        <a>Link 3</a>
-                    </div>
-                </div>
             </div>
         </div>
     );
