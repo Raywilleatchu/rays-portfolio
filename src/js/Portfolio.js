@@ -1,8 +1,10 @@
+import "../css/Portfolio.scss"
+
 export const Portfolio = () =>
 {
     return(
         <div>
-            Portfolio
+            
         </div>
     );
 }

@@ -21,7 +21,7 @@
         height: auto;
 
         &.subLogo {
-            width: 50px;
+            width: 80px;
         }
     }
 }
@@ -70,7 +70,7 @@ nav {
 
         &:after {
             content: '';
-            font-size: 9px;
+            font-size: 15px;
             letter-spacing: 2px;
             position: absolute;
             bottom: 0;

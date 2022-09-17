@@ -1,9 +1,5 @@
-import { Home } from './Home.js';
 import "../css/MainDisplay.scss";
 import { Routes, Route, Outlet } from 'react-router-dom';
-import { About } from './About.js';
-import { Portfolio } from './Portfolio.js';
-import { Resume } from './Resume.js';
 import { NavBar } from './NavBar.js';
 
 export const MainDisplay = () =>
