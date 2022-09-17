@@ -1,0 +1,66 @@
+$primary-color: #ffd700;
+
+@import 'animate.css';
+
+@font-face{
+    font-family: 'Coolvetica';
+    src: url('../assets/fonts/CoolveticaRg-Regular.woff') format('woff');
+}
+
+
+@font-face{
+    font-family: 'Helvetica Neue';
+    src: url('../assets/fonts/helvetica-neu.ttf') format('ttf');
+}
+
+
+@font-face{
+    font-family: 'Labelle Aurore';
+    src: url('../assets/fonts/LaBelleAurore.woff2') format('woff2');
+}
+
+input,
+textarea {
+    font-family: 'Helvetica Neue';
+}
+
+
+
+
+
+
+// .mainContainer{
+//     display: flex;
+//     justify-content: space-between;
+//     overflow: hidden;
+// }
+
+// .container-1 div{
+//     /* border: 1px #ccc solid;
+//     padding: 10px; */
+// }
+
+// .navBox{
+//     flex: 1;
+// }
+
+// .displayBox{
+//     flex: 1;
+// }
+
+
+
+
+// /* .App
+// {
+//     color:bisque;
+// }
+
+
+// .App-Header
+// {
+//     color:blue; 
+//     font: message-box; 
+//     position: relative; 
+//     top: 10px;
+// } */
