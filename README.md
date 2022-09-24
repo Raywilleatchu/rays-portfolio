@@ -2,11 +2,9 @@
 
 | Description | Link |
 | -------- | ------- |
-| Implementing `Dynatrace` into our Lambdas | Example Lambda integration <br/> https://git.rockfin.com/DataServices/SAM-IAC/pull/4 <br/> https://git.rockfin.com/DataServices/SAM-IAC/pull/5 |
-Example Service integration
-
-[https://git.rockfin.com/DataServices/Eris-IAC/pull/21](https://git.rockfin.com/DataServices/Eris-IAC/pull/21)
-[https://git.rockfin.com/DataServices/Eris-IAC/pull/20](https://git.rockfin.com/DataServices/Eris-IAC/pull/20) |
+| Implementing `Dynatrace` into our Services & Lambdas | Example Lambda integration <br/> https://git.rockfin.com/DataServices/SAM-IAC/pull/4 <br/> https://git.rockfin.com/DataServices/SAM-IAC/pull/5 <br/> Example Service integration <br/> https://git.rockfin.com/DataServices/Eris-IAC/pull/21 <br/> https://git.rockfin.com/DataServices/Eris-IAC/pull/20 |
+| Visibility of currently integrated service metrics on the source page and Dynatrace Dashboards created by me | [Dynatrace-Links](https://rockfin.sharepoint.com/sites/PBMC/_layouts/OneNote.aspx?id=%2Fsites%2FPBMC%2FSiteAssets%2FPBMC%20Notebook&wd=target%28Dynatrace%20Links.one%7C302F57A1-AC18-4837-96FC-565F09859E2A%2F%29
+onenote:https://rockfin.sharepoint.com/sites/PBMC/SiteAssets/PBMC%20Notebook/Dynatrace%20Links.one#section-id={302F57A1-AC18-4837-96FC-565F09859E2A}&end) |
 
 
 Bug fix in `Aether` [https://git.rockfin.com/DataServices/Aether/pull/316](https://git.rockfin.com/DataServices/Aether/pull/316)
