@@ -19,6 +19,7 @@ I took the opportunity to learn how dynatrace works and how to integrate it into
 [https://git.rockfin.com/DataServices/SAM-IAC/pull/5](https://git.rockfin.com/DataServices/SAM-IAC/pull/5)
 [https://git.rockfin.com/DataServices/Eris-IAC/pull/21](https://git.rockfin.com/DataServices/Eris-IAC/pull/21)
 [https://git.rockfin.com/DataServices/Eris-IAC/pull/20](https://git.rockfin.com/DataServices/Eris-IAC/pull/20)
+
 With the help of Matt Pawlak, we also recently implemented a new integration that allows us to view lambda logs via the FluentD client.
 [https://git.rockfin.com/DataServices/PBMCDynatraceLogger](https://git.rockfin.com/DataServices/PBMCDynatraceLogger)
 
