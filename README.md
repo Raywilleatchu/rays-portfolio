@@ -1,4 +1,9 @@
-# Professional Accomplishments
+# Coding
+
+## Coding Standards
+
+| --------------------------------------------------------------------------- | ------------------------- |
+| Stays within the standards of the team to keep code readable and efficient. |                           |
 
 Bug fix in `Aether` [https://git.rockfin.com/DataServices/Aether/pull/316](https://git.rockfin.com/DataServices/Aether/pull/316)
 
