@@ -2,7 +2,7 @@
 
 | Description | Link |
 | -------- | ------- |
-| Implementing `Dynatrace` into our Lambdas | Example Lambda integration https://git.rockfin.com/DataServices/SAM-IAC/pull/4 <br/> https://git.rockfin.com/DataServices/SAM-IAC/pull/5 |
+| Implementing `Dynatrace` into our Lambdas | Example Lambda integration <br/> https://git.rockfin.com/DataServices/SAM-IAC/pull/4 <br/> https://git.rockfin.com/DataServices/SAM-IAC/pull/5 |
 Example Service integration
 
 [https://git.rockfin.com/DataServices/Eris-IAC/pull/21](https://git.rockfin.com/DataServices/Eris-IAC/pull/21)
