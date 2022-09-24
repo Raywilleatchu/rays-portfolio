@@ -8,24 +8,24 @@ Updating our Blazor app, `Oya` with a new page meant to create test requests [ht
 
 Updating `Oya` to .NET 6 [https://git.rockfin.com/DataServices/Oya-UI/pull/52](https://git.rockfin.com/DataServices/Oya-UI/pull/52)
 
-Providing visibility to Kafka, SNS, SQS & RDB messages being sent [https://git.rockfin.com/DataServices/Oya-UI/pull/47](https://git.rockfin.com/DataServices/Oya-UI/pull/47)
+Providing visibility to Kafka, SNS, SQS & RDB messages being sent in `Oya` [https://git.rockfin.com/DataServices/Oya-UI/pull/47](https://git.rockfin.com/DataServices/Oya-UI/pull/47)
 
-Implementing UI Validation to Themis
+Implementing UI Validation to `Themis`
 [https://git.rockfin.com/DataServices/Themis/pull/214](https://git.rockfin.com/DataServices/Themis/pull/214)
 
-I took the opportunity to learn how dynatrace works and how to integrate it into our services & lambdas.
+I took the opportunity to learn how `Dynatrace` works and how to integrate it into our services & lambdas.
 
 [https://git.rockfin.com/DataServices/SAM-IAC/pull/4](https://git.rockfin.com/DataServices/SAM-IAC/pull/4)
 [https://git.rockfin.com/DataServices/SAM-IAC/pull/5](https://git.rockfin.com/DataServices/SAM-IAC/pull/5)
 [https://git.rockfin.com/DataServices/Eris-IAC/pull/21](https://git.rockfin.com/DataServices/Eris-IAC/pull/21)
 [https://git.rockfin.com/DataServices/Eris-IAC/pull/20](https://git.rockfin.com/DataServices/Eris-IAC/pull/20)
 
-With the help of Matt Pawlak, we also recently implemented a new integration that allows us to view lambda logs via the FluentD client.
+With the help of Matt Pawlak, we also recently implemented a new integration that allows us to view lambda logs via the `FluentD Client`.
 [https://git.rockfin.com/DataServices/PBMCDynatraceLogger](https://git.rockfin.com/DataServices/PBMCDynatraceLogger)
 
 # Hackweek Accomplishments
 
-During the last hackweek I was apart of an internal game project built in Godot.
+During the last hackweek I was apart of an internal game project built in Godot called `Picnic Panic`.
 
 [https://git.rockfin.com/Umbrella/PicnicPanic/pull/19](https://git.rockfin.com/Umbrella/PicnicPanic/pull/19)
 [https://git.rockfin.com/Umbrella/PicnicPanic/pull/22](https://git.rockfin.com/Umbrella/PicnicPanic/pull/22)
