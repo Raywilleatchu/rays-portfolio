@@ -1,15 +1,6 @@
 # Quality and Health
 
-### Understands potential attack vectors within applications.
-### Writes code that protects against potential attack vectors.
-### Analyzes the team's applications attack surface and potential vulnerabilities.
-### Understands the monitoring metrics and tools used by the company and how to integrate with them (e.g. logs, usage, system, security).
-### Profiles an application to identify and implement performance enhancements.
-### Understands different metrics of application health and performance.
-### Follows established development standards (security, performance, testing, coding style).
-### Analyzes the team's applications and fixes errors.
-### Identifies, explains, and resolves software issues.
-### Writes code that fails gracefully and handles error conditions (e.g. service failures, logging).
+### Understands potential attack vectors within applications.<br/> Writes code that protects against potential attack vectors. <br/> Analyzes the team's applications attack surface and potential vulnerabilities.<br/> Understands the monitoring metrics and tools used by the company and how to integrate with them (e.g. logs, usage, system, security).<br/> Profiles an application to identify and implement performance enhancements.<br/> Understands different metrics of application health and performance.<br/> Follows established development standards (security, performance, testing, coding style).<br/> Analyzes the team's applications and fixes errors.<br/> Identifies, explains, and resolves software issues.<br/> Writes code that fails gracefully and handles error conditions (e.g. service failures, logging).
 
 
 
