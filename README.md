@@ -1,10 +1,23 @@
 # Quality and Health
 
+### Understands potential attack vectors within applications.
+### Writes code that protects against potential attack vectors.
+### Analyzes the team's applications attack surface and potential vulnerabilities.
+### Understands the monitoring metrics and tools used by the company and how to integrate with them (e.g. logs, usage, system, security).
+### Profiles an application to identify and implement performance enhancements.
+### Understands different metrics of application health and performance.
+### Follows established development standards (security, performance, testing, coding style).
+### Analyzes the team's applications and fixes errors.
+### Identifies, explains, and resolves software issues.
+### Writes code that fails gracefully and handles error conditions (e.g. service failures, logging).
+
+
+
 | Description | Link |
 | -------- | ------- |
 | Implementing `Dynatrace` into our Services & Lambdas | Example Lambda integration <br/> https://git.rockfin.com/DataServices/SAM-IAC/pull/4 <br/> https://git.rockfin.com/DataServices/SAM-IAC/pull/5 <br/> Example Service integration <br/> https://git.rockfin.com/DataServices/Eris-IAC/pull/21 <br/> https://git.rockfin.com/DataServices/Eris-IAC/pull/20 |
 | Visibility of currently integrated service metrics on the Service's source page and `Dynatrace Dashboards` created by me | [Dynatrace Links via OneNote](https://rockfin.sharepoint.com/sites/PBMC/_layouts/OneNote.aspx?id=%2Fsites%2FPBMC%2FSiteAssets%2FPBMC%20Notebook&wd=target%28Dynatrace%20Links.one%7C302F57A1-AC18-4837-96FC-565F09859E2A%2F%29onenote:https://rockfin.sharepoint.com/sites/PBMC/SiteAssets/PBMC%20Notebook/Dynatrace%20Links.one#section-id={302F57A1-AC18-4837-96FC-565F09859E2A}&end) |
-| Implementating of log scraping working with Matt Pawlak | [PBMCDynatraceLogger](https://git.rockfin.com/DataServices/PBMCDynatraceLogger) |
+| Implementation of lambda log scraping while working with Matt Pawlak | [PBMCDynatraceLogger](https://git.rockfin.com/DataServices/PBMCDynatraceLogger) |
 
 Bug fix in `Aether` [https://git.rockfin.com/DataServices/Aether/pull/316](https://git.rockfin.com/DataServices/Aether/pull/316)
 
