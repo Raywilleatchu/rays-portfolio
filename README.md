@@ -1,6 +1,8 @@
 # Quality and Health
 
-[Q3] Analyzes the team's applications attack surface and potential vulnerabilities.<br/>
+### [Q3] Analyzes the team's applications attack surface and potential vulnerabilities.<br/>
+[1] Reviews new code written by themselves or others and evaluates how it may be vulnerable to attacks from OWASP.
+
 [Q7] Follows established development standards (security, performance, testing, coding style).<br/>
 [Q8] Analyzes the team's applications and fixes errors.<br/>
 [Q10] Writes code that fails gracefully and handles error conditions (e.g. service failures, logging).<br/>
