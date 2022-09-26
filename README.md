@@ -61,9 +61,9 @@
 [I7] Helps design and encourage community standards (e.g. performance, testing, coding style).<br/>
 | Description | Link |
 | -------- | ------- |
-| Aether Guard Clause | https://git.rockfin.com/DataServices/Aether/pull/186 <br/> https://git.rockfin.com/DataServices/Aether/pull/226 <br/> https://git.rockfin.com/DataServices/Themis/pull/218 |
+| `Aether` Guard Clause | https://git.rockfin.com/DataServices/Aether/pull/186 <br/> https://git.rockfin.com/DataServices/Aether/pull/226 <br/> https://git.rockfin.com/DataServices/Themis/pull/218 |
 | Integrating updated libraries & corresponding changes into `Themis` | https://git.rockfin.com/DataServices/Themis/pull/220 |
-| Updating Aether package | https://git.rockfin.com/DataServices/Aether/pull/187 |
+| Updating `Aether` package | https://git.rockfin.com/DataServices/Aether/pull/187 |
 
 
 # Full Stack
@@ -74,14 +74,41 @@
 [F5] Can make changes to all levels of the team's projects (e.g. client-side, frontend, backend, database).<br/>
 | Description | Link |
 | -------- | ------- |
-| Technologies Known & Use Everyday | Blazor <br/> AWS <br/> HAL Deployment <br/> Testing Libraries and Frameworks [ MSTest, Moq, AutoBogus, BUnit, MSFakes, Dynamic Test Data using static functions ] <br/> CircleCI <br/> Git & Github <br/> Visual Studio & VS Code |
+| Libraries/Frameworks/Sevices Known & Used Everyday | Blazor <br/> AWS <br/> HAL Deployment <br/> Testing Libraries and Frameworks [ MSTest, Moq, AutoBogus, BUnit, MSFakes, Dynamic Test Data using static functions ] <br/> CircleCI <br/> Git & Github <br/> IDEs [ Visual Studio, VSCode, Powershell ISE, Intellij, Pycharm ] |
+| Databases Known | Dynamo <br/> Mongo <br/> Azure RDS <br/> SQL <br/> MySQL |
+| OS Specialtization | Windows <br/> Linux |
 
 
-Bug fix in `Aether` [https://git.rockfin.com/DataServices/Aether/pull/316](https://git.rockfin.com/DataServices/Aether/pull/316)
+# Vision and Growth
+[V1] Learns new libraries and how to use them effectively.<br/>
+[V2] Avoids writing code unnecessarily by using existing internal or open source solutions.<br/>
+[V3] Learns new languages or systems and knows when it is appropriate to introduce them.<br/>
+[V4] Is actively involved with development communities (e.g. giving talks, helping others).<br/>
+[V5] Stays current on new and upcoming technologies.<br/>
+| Description | Link |
+| -------- | ------- |
+| Languages Known | C# <br/> Python <br/> Java <br/> C++ <br/> JS, HTML, CSS <br/> Lua |
+| Other Known Frameworks not professionally used | Angular <br/> React <br/> Unity <br/> Godot <br/> Maven |
+| Active Discussion/Learning Participation | Project Cerebro <br/> DevBytes <br/> Train Knowledge Share |
 
-Providing visibility to Kafka, SNS, SQS & RDB messages being sent in `Oya` [https://git.rockfin.com/DataServices/Oya-UI/pull/47](https://git.rockfin.com/DataServices/Oya-UI/pull/47)
-
-
+# Architecture
+[A1] Designs extensible and composable systems (e.g. services, APIs, modules).<br/>
+[A2] Understands how their team's applications integrate with external systems.<br/>
+[A3] Understands system architectural patterns and when to use them effectively.<br/>
+[A4] Understands the flow of data used by their team's systems.<br/>
+[A5] Addresses current and prevents future technical debt.<br/>
+[A6] Can effectively explain architectural decisions to technical and non-technical partners.<br/>
+[A7] Writes effective documentation both in and outside of code (e.g. comments, changelog, architecture, system design, gliffies).<br/>
+[A8] Has expert knowledge in a specialized domain.<br/>
+[A9] Understands how to create scalable software.<br/>
+[A10] Understands how to create and manage distributed software and systems.<br/>
+| Description | Link |
+| -------- | ------- |
+| Bug fix in `Aether` | https://git.rockfin.com/DataServices/Aether/pull/316 |
+| Providing visibility to Kafka, SNS, SQS & RDB messages being sent in `Oya` | https://git.rockfin.com/DataServices/Oya-UI/pull/47 |
+| Fixed Logging method that was failing and causing `Oya` to return a 502 | https://git.rockfin.com/DataServices/Aether/pull/316 |
+| Updating Aether Packages, removing Aether.Eris, Adding a unit test to make sure code changes worked as intended in `ThemisAPI` | https://git.rockfin.com/DataServices/Themis-Backend/pull/192 |
+| Fixing `OyaUI` Rendering bug on Systems page | https://git.rockfin.com/DataServices/Oya-UI/pull/48 |
 
 # Hackweek Accomplishments
 
