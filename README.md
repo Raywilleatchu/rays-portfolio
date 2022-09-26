@@ -1,6 +1,7 @@
 # Portfolio
 
-[Software Engineer Survey CSV](https://github.com/Raywilleatchu/rays-portfolio/blob/ray/References/survey-Raymond_Mansour-2022-09-24.csv)
+[Software Engineer Survey CSV](https://github.com/Raywilleatchu/rays-portfolio/blob/ray/References/survey-Raymond_Mansour-2022-09-24.csv) <br/>
+[Core Survey CSV](https://github.com/Raywilleatchu/rays-portfolio/blob/ray/References/survey-Raymond_Mansour_Core_Survey-2022-09-26.csv)
 
 ## Quality and Health
 
