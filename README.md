@@ -1,19 +1,33 @@
-# Quality and Health
+# Portfolio
+
+## Quality and Health
 
 ### [Q3] Analyzes the team's applications attack surface and potential vulnerabilities.<br/>
 [1] Reviews new code written by themselves or others and evaluates how it may be vulnerable to attacks from OWASP.
 
-[Q7] Follows established development standards (security, performance, testing, coding style).<br/>
-[Q8] Analyzes the team's applications and fixes errors.<br/>
-[Q10] Writes code that fails gracefully and handles error conditions (e.g. service failures, logging).<br/>
+### [Q7] Follows established development standards (security, performance, testing, coding style).<br/>
+[2] Follows company standards and understands the importance of adhering to them. Actively seeks out senior developers if unsure on best practices and when no clear company guidelines are available.
+
+### [Q8] Analyzes the team's applications and fixes errors.<br/>
+[2] Makes fixing bugs a priority and actively works on drawing attention to them during planning. Can quickly identify and fix bugs even in code written by others.
+
+### [Q10] Writes code that fails gracefully and handles error conditions (e.g. service failures, logging).<br/>
+[2] Can write robust code that defends against common error scenarios such as bad responses from services and log the appropriate information to allow quick and efficient troubleshooting. Understands the severity of different types of errors and when they should be suppressed or surfaced to the user.
+
 | Description | Link |
 | -------- | ------- |
 | Implementing UI Validation to `Themis` | https://git.rockfin.com/DataServices/Themis/pull/214 |
 
 
-[Q4] Understands the monitoring metrics and tools used by the company and how to integrate with them (e.g. logs, usage, system, security).<br/>
-[Q5] Profiles an application to identify and implement performance enhancements.<br/>
+### [Q4] Understands the monitoring metrics and tools used by the company and how to integrate with them (e.g. logs, usage, system, security).<br/>
+[2] Can do complete setup for an application to connect to core services - either directly or through SDKs provided by the company.
+
+### [Q5] Profiles an application to identify and implement performance enhancements.<br/>
+[2] Takes an active and consistent interest in profiling and monitoring and often uses tools to identify and improve expensive code paths.
+
 [Q6] Understands different metrics of application health and performance.<br/>
+[1] Understands at a high level the signals of application health and performance and the factors that impact them.
+
 | Description | Link |
 | -------- | ------- |
 | Implementing `Dynatrace` into our Services & Lambdas | Example Lambda integration <br/> https://git.rockfin.com/DataServices/SAM-IAC/pull/4 <br/> https://git.rockfin.com/DataServices/SAM-IAC/pull/5 <br/> Example Service integration <br/> https://git.rockfin.com/DataServices/Eris-IAC/pull/21 <br/> https://git.rockfin.com/DataServices/Eris-IAC/pull/20 |
