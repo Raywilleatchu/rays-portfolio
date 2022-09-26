@@ -24,10 +24,17 @@ export const About = () => {
                         idx={15}
                     />
                 </h1>
-                <p>
+                <p style={{fontSize: "24px"}}>
                     I'm a self taught Software Engineer who specializes in Frontend, Backend & Database work. 
                     I have achieved a certificate of completion from Grand Circus boot camp in Detroit, MI.  
-                    My current topic of focus is Data Privacy at Rocket Central.
+                    My current topic of focus is Data Privacy at Rocket Central. Since October of 2021, I joined Peanut Butter Motorcycle Club.
+                </p>
+                <p style={{fontSize: "24px"}}>
+                    Since then my main focus was to learn the whole stack and provide value to the team. I now service our Enterprise Applications. One of them being Oya, our orchestration service that balances right requests and sends them to the correct workflow.
+                    The other is Themis, a service that shows visibility on current Litigation & Retention issues and also has the ability to stop the flow of data if needed. Other services I have worked on include but are not limited to the Business Term API, Eris, Postmalone, & SAM.
+                </p>
+                <p style={{fontSize: "24px"}}>
+                    For further reference, you can go <a href="https://git.rockfin.com/rmansour2">here</a>
                 </p>
             </div>
             
