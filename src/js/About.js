@@ -25,13 +25,9 @@ export const About = () => {
                     />
                 </h1>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Placerat orci nulla pellentesque dignissim enim sit. Sed blandit libero volutpat sed cras ornare arcu dui vivamus. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et. Amet est placerat in egestas erat imperdiet sed. Integer eget aliquet nibh praesent tristique magna sit amet. Semper auctor neque vitae tempus quam pellentesque nec nam aliquam. Netus et malesuada fames ac turpis. Neque sodales ut etiam sit amet nisl purus in mollis. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla. Mattis enim ut tellus elementum sagittis vitae. Nunc congue nisi vitae suscipit tellus mauris a diam. Purus in massa tempor nec feugiat nisl. 
-                </p>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Urna duis convallis convallis tellus id interdum velit laoreet id. Tellus pellentesque eu tincidunt tortor. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Quisque non tellus orci ac. Elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Ac turpis egestas integer eget aliquet nibh praesent. Quis vel eros donec ac odio tempor orci. Venenatis tellus in metus vulputate. Proin libero nunc consequat interdum varius sit. A iaculis at erat pellentesque adipiscing.
-                </p>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Morbi tincidunt ornare massa eget egestas purus. Nunc scelerisque viverra mauris in aliquam sem fringilla. Adipiscing elit ut aliquam purus sit amet luctus venenatis. Sed turpis tincidunt id aliquet risus. Fermentum leo vel orci porta non. Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Ullamcorper eget nulla facilisi etiam. Molestie at elementum eu facilisis sed. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. Tempus urna et pharetra pharetra massa massa ultricies mi. Nibh nisl condimentum id venenatis a condimentum vitae sapien pellentesque. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Purus gravida quis blandit turpis cursus in hac habitasse platea. Amet justo donec enim diam vulputate ut pharetra sit amet. Egestas diam in arcu cursus euismod quis viverra nibh. Non pulvinar neque laoreet suspendisse interdum. Vel pretium lectus quam id leo in vitae.
+                    I'm a self taught Software Engineer who specializes in Frontend, Backend & Database work. 
+                    I have achieved a certificate of completion from Grand Circus boot camp in Detroit, MI.  
+                    My current topic of focus is Data Privacy at Rocket Central.
                 </p>
             </div>
             
