@@ -27,7 +27,7 @@ export const About = () => {
                 <p style={{fontSize: "24px"}}>
                     I'm a self taught Software Engineer who specializes in Frontend, Backend & Database work. 
                     I have achieved a certificate of completion from Grand Circus boot camp in Detroit, MI.  
-                    My current topic of focus is Data Privacy at Rocket Central. Since October of 2021, I joined Peanut Butter Motorcycle Club.
+                    My current topic of focus is Data Privacy at Rocket Central. I joined my team, Peanut Butter Motorcycle Club in October of 2021.
                 </p>
                 <p style={{fontSize: "24px"}}>
                     Since then my main focus was to learn the whole stack and provide value to the team. I now service our Enterprise Applications. One of them being Oya, our orchestration service that balances right requests and sends them to the correct workflow.

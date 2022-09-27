@@ -1,5 +1,5 @@
 import "../css/MainDisplay.scss";
-import { Routes, Route, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import { NavBar } from './NavBar.js';
 
 export const MainDisplay = () =>
