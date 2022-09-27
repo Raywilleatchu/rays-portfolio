@@ -1,7 +1,6 @@
 import React from "react";
 import "../css/NavBar.scss";
 import GokuFace from "../assets/img/GokuFace.png";
-import NMS from "../assets/img/nms.gif";
 import "../js/MainDisplay.js";
 import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

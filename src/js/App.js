@@ -6,7 +6,6 @@ import "../css/MainDisplay.scss";
 import { Routes, Route } from 'react-router-dom';
 import { About } from './About.js';
 import { Portfolio } from './Portfolio.js';
-import { Resume } from './Resume.js';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
           <Route index element={<Home />}/>
           <Route path='about' element={<About />}/>
           <Route path='portfolio' element={<Portfolio />}/>
-          <Route path='resume' element={<Resume />}/>
         </Route>
       </Routes>
     </>
