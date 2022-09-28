@@ -10,7 +10,7 @@ export const MainDisplay = () =>
              <div className='page'>
                  <span className='tags top-tags'>&lt;body&gt;</span>
 
-                 <Outlet />
+                    <Outlet />
 
                  <span className='tags bottom-tags'>
                     &lt;/body&gt;
