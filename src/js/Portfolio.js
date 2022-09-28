@@ -29,10 +29,10 @@ export const Portfolio = () =>
     }, doc.content, content.length);
 
     return(
-        <div style={{position: "absolute", padding:"10px 10px 10px 110px", fontSize: "20px", wordBreak: "break-word"}}>
-            <div style={{display: "flex", backgroundColor: "pink"}}>
-                <div name="Quality and Health" style={{flex: "2"}}>
-                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(11, 3350)}</ReactMarkdown>
+        <div className="text-container" style={{position: "absolute", padding:"50px 10px 10px 110px", fontSize: "20px", color: "white", wordBreak: "break-word"}}>
+            <div style={{display: "flex"}}>
+                <div name="Architecture" style={{flex: "2"}}>
+                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(15400, 18764)}</ReactMarkdown>
                 </div>
 
                 <div name="Toolng" style={{flex: "1 500px"}}>
@@ -40,7 +40,7 @@ export const Portfolio = () =>
                 </div>
             </div>
 
-            <div style={{display: "flex", backgroundColor: "orange"}}>
+            <div style={{display: "flex"}}>
                 <div name="Fullstack" style={{flex: "2"}}>
                     <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(11309, 13415)}</ReactMarkdown>
                 </div>
@@ -50,9 +50,9 @@ export const Portfolio = () =>
                 </div>
             </div>
 
-            <div style={{display: "flex", backgroundColor: "pink"}}>
-                <div name="Programming Concepts" style={{flex: "2"}}>
-                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(3394, 4620)}</ReactMarkdown>
+            <div style={{display: "flex"}}>
+                <div name="Quality and Health" style={{flex: "2"}}>
+                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(295, 3350)}</ReactMarkdown>
                 </div>
 
                 <div nam="Vision and Growth" style={{flex: "1 500px"}}>
@@ -60,12 +60,15 @@ export const Portfolio = () =>
                 </div>
             </div>
             
-            <div style={{display: "flex", backgroundColor: "orange"}}>
-                <div name="Architecture" style={{flex: "2"}}>
-                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(15400, 18764)}</ReactMarkdown>
+            <div style={{display: "flex"}}>
+                <div name="Programming Concepts" style={{flex: "2"}}>
+                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(3394, 4620)}</ReactMarkdown>
                 </div>
                 <div style={{flex: "1 500px"}}>
                     <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(18760, 20000)}</ReactMarkdown>
+                    <br/><br/> 
+                    <h2>References</h2>
+                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(11, 295)}</ReactMarkdown>
                 </div>
             </div>
         </div>

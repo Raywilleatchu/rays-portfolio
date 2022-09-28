@@ -163,7 +163,7 @@
 | Description | Link |
 | -------- | ------- |
 | Languages Known | C# <br/> Python <br/> Java <br/> C++ <br/> JS, HTML, CSS <br/> Lua |
-| Other Known Frameworks not professionally used | Angular <br/> React <br/> Unity <br/> Godot <br/> Maven |
+| Other Known Frameworks | Angular <br/> React <br/> Unity <br/> Godot <br/> Maven |
 | Active Discussion/Learning Participation | Project Cerebro <br/> DevBytes <br/> Train Knowledge Share |
 
 ## Architecture

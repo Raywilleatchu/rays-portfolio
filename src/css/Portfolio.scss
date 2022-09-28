@@ -1,0 +1,22 @@
+p{
+    font-size: 18px;
+}
+
+.text-container{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: fit-content;
+    animation: fadeIn 1s;
+
+    &:nth-of-type(1) {
+        animation-delay: 1.1s;
+    }
+
+    &:nth-of-type(2) {
+        animation-delay: 2.0s;
+    }
+
+    &:nth-of-type(3) {
+        animation-delay: 2.5s;
+    }
+}
