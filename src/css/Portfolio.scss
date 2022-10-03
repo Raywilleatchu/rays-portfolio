@@ -1,14 +1,17 @@
 .markdown {
     p {
         font-size: 18px;
+        color: skyblue;
     }
 
     h3 {
-        color: aqua;
+        color: rgb(190, 186, 116);
     }
 
     h2 {
-        color:darkgoldenrod;
+        color:rgb(75, 218, 106);
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     a {
@@ -67,6 +70,8 @@
 
 .flex-container {
     display: flex;
+    background-color: rgb(0,0,0, 0.4);
+    padding: 10px 10px 10px 10px;
 }
 
 .text-container {

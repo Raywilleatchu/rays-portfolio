@@ -5,8 +5,6 @@ import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
 import { faAws, faJava, faGit, faUnity, faUbuntu, faJs } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { database } from "fontawesome";
-import PageList from "./PageList";
 
 export const Portfolio = () =>
 {
@@ -34,7 +32,7 @@ export const Portfolio = () =>
     useEffect(() => {
         if(doc.content != null){
             setContent(atob(doc.content));
-            console.log(content.length)
+            console.log(content)
             setPages([
                 content.slice(15376, 18740), //Arch
                 content.slice(4617, 9142),   //Tool
@@ -76,9 +74,13 @@ export const Portfolio = () =>
         <div className="text-container">
             <div className="flex-container">
                 <div name="Architecture" className="left-col slide-in">
-                    <PageList data={currentPosts} />
+                    <ReactMarkdown className="markdown" rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget="_blank">{content.slice(15376, 18740)}</ReactMarkdown>
+                    <div style={{display: "flex", padding: "100px 100px 100px 100px"}}>
+                            <FontAwesomeIcon icon={faAws}        size="6x"  style={{margin: "0 50px 0 50px"}}/>
+                            <FontAwesomeIcon icon={faJava}    size="6x"  style={{margin: "0 50px 0 50px"}}/>
+                            <FontAwesomeIcon icon={faGit}     size="6x"  style={{margin: "0 50px 0 50px"}}/>
+                    </div>
                 </div>
-
                 <div name="Toolng" className="right-col slide-in">
                     <ReactMarkdown className="markdown" rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(4617, 9142)}</ReactMarkdown>
                 </div>
