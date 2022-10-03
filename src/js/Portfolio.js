@@ -5,6 +5,8 @@ import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
 import { faAws, faJava, faGit, faUnity, faUbuntu, faJs } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { database } from "fontawesome";
+import PageList from "./PageList";
 
 export const Portfolio = () =>
 {
@@ -12,6 +14,11 @@ export const Portfolio = () =>
 
     const [ doc, setDoc ] = useState([]);
     const [ content, setContent ] = useState("");
+    const [ currentPage, setCurrentPage ] = useState(1);
+    const [ postsPerPage, setPostsPerPage ] = useState(1);
+
+    const [ pages, setPages ] = useState([]);
+
     const sliders = document.querySelectorAll('.slide-in');
 
     useEffect(() => {
@@ -28,6 +35,17 @@ export const Portfolio = () =>
         if(doc.content != null){
             setContent(atob(doc.content));
             console.log(content.length)
+            setPages([
+                content.slice(15376, 18740), //Arch
+                content.slice(4617, 9142),   //Tool
+                content.slice(11309, 13415), //FullStack
+                content.slice(9140, 11312),  //Integation
+                content.slice(295, 3390),    //Q&H
+                content.slice(13410, 15379), //V&G
+                content.slice(3394, 4620),   //Programming
+                content.slice(18736, 20000), //Ref
+                content.slice(11, 295),  //Hackweek
+              ]);
         }
     }, doc.content, content.length);
 
@@ -50,17 +68,15 @@ export const Portfolio = () =>
         appearOnScroll.observe(slider);
     })
 
+    const lastPostIndex = currentPage * postsPerPage;
+    const firstPostIndex = lastPostIndex - postsPerPage;
+    const currentPosts = pages.slice(firstPostIndex, lastPostIndex);
 
     return(
         <div className="text-container">
             <div className="flex-container">
                 <div name="Architecture" className="left-col slide-in">
-                    <ReactMarkdown className="markdown" rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(15376, 18740)}</ReactMarkdown>
-                    <div style={{display: "flex", padding: "100px 100px 100px 100px"}}>
-                        <FontAwesomeIcon icon={faAws}  size="6x"  style={{margin: "0 50px 0 50px"}}/>
-                        <FontAwesomeIcon icon={faJava} size="6x"  style={{margin: "0 50px 0 50px"}}/>
-                        <FontAwesomeIcon icon={faGit}  size="6x"  style={{margin: "0 50px 0 50px"}}/>
-                    </div>
+                    <PageList data={currentPosts} />
                 </div>
 
                 <div name="Toolng" className="right-col slide-in">

@@ -1,58 +1,59 @@
-
-.markdown p {
-    font-size: 18px;
-}
-
-.markdown h3 {
-    color: aqua;
-}
-
-.markdown h2 {
-    color:darkgoldenrod;
-}
-
-.markdown a {
-    outline: none;
-    text-decoration: none;
-    padding: 2px 1px 0;
-}
-  
-.markdown a:link, a:visited {
-color: cornflowerblue;
-}
-
-.markdown a:focus {
-border-bottom: 1px solid;
-background:slateblue;
-}
-
-.markdown a:hover {
-border-bottom: 1px solid;
-background: slateblue;
-color: black;
-}
-  
-.markdown a:active {
-    background: #265301;
-    color: #cdfeaa;
-  }
-
-.markdown table {
-    background-color: rgb(211,211,211, 0.2);
-    border: dotted;
-    width: 99%;
-    border-color: black;
-
-    th {
-        border: solid;
-        border-color: burlywood;
+.markdown {
+    p {
+        font-size: 18px;
     }
 
-    td {
-        width: 20%;
-        border: solid;
-        border-width: 1px;
-        border-color: burlywood;
+    h3 {
+        color: aqua;
+    }
+
+    h2 {
+        color:darkgoldenrod;
+    }
+
+    a {
+        outline: none;
+        text-decoration: none;
+        padding: 2px 1px 0;
+    }
+    
+    a:link, a:visited {
+    color: cornflowerblue;
+    }
+
+    a:focus {
+    border-bottom: 1px solid;
+    background:slateblue;
+    }
+
+    a:hover {
+    border-bottom: 1px solid;
+    background: slateblue;
+    color: black;
+    }
+    
+    a:active {
+        background: #265301;
+        color: #cdfeaa;
+    }
+
+    table {
+        background-color: rgb(211,211,211, 0.2);
+        border: dotted;
+        width: 99%;
+        border-color: black;
+
+        th {
+            border: solid;
+            border-color: burlywood;
+        }
+
+        td {
+            width: 20%;
+            border: solid;
+            border-width: 1px;
+            border-color: burlywood;
+        }
     }
 }
 
