@@ -5,6 +5,7 @@ import rehypeRaw from "rehype-raw";
 import remarkGfm from "remark-gfm";
 import { faAws, faJava, faGit, faUnity, faUbuntu, faJs } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Page from "./Page";
 
 export const Portfolio = () =>
 {
@@ -29,42 +30,35 @@ export const Portfolio = () =>
         } 
         fetchData();
     }, []);
+
     useEffect(() => {
         if(doc.content != null){
             setContent(atob(doc.content));
             console.log(content)
-            setPages([
-                content.slice(15376, 18740), //Arch
-                content.slice(4617, 9142),   //Tool
-                content.slice(11309, 13415), //FullStack
-                content.slice(9140, 11312),  //Integation
-                content.slice(295, 3390),    //Q&H
-                content.slice(13410, 15379), //V&G
-                content.slice(3394, 4620),   //Programming
-                content.slice(18736, 20000), //Ref
-                content.slice(11, 295),  //Hackweek
-              ]);
         }
     }, doc.content, content.length);
 
+    useEffect(() =>{
+        if(doc != null){
+
+            setPages([
+            content.slice(15376, 18740), //Arch
+            content.slice(4617, 9142),   //Tool
+            content.slice(11309, 13415), //FullStack
+            content.slice(9140, 11312),  //Integation
+            content.slice(295, 3390),    //Q&H
+            content.slice(13410, 15379), //V&G
+            content.slice(3394, 4620),   //Programming
+            content.slice(18736, 20000), //Ref
+            content.slice(11, 295),  //Hackweek
+        ]
+        );} 
+    }, []);
+    
     const appearOptions =  {
         threshold: 0
     };
 
-    const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
-        entries.forEach(entry =>{
-            if (!entry.isIntersecting){
-                return;
-            }else{
-                entry.target.classList.add('.appear');
-                appearOnScroll.unobserve(entry.target);
-            }
-        });
-    }, appearOptions);
-
-    sliders.forEach(slider => {
-        appearOnScroll.observe(slider);
-    })
 
     const lastPostIndex = currentPage * postsPerPage;
     const firstPostIndex = lastPostIndex - postsPerPage;
@@ -80,6 +74,7 @@ export const Portfolio = () =>
                             <FontAwesomeIcon icon={faJava}    size="6x"  style={{margin: "0 50px 0 50px"}}/>
                             <FontAwesomeIcon icon={faGit}     size="6x"  style={{margin: "0 50px 0 50px"}}/>
                     </div>
+                    {/* <Page content={pages[0]}/> */}
                 </div>
                 <div name="Toolng" className="right-col slide-in">
                     <ReactMarkdown className="markdown" rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(4617, 9142)}</ReactMarkdown>
