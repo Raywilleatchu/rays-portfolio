@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/NavBar.scss";
-import GokuFace from "../assets/img/GokuFace.png";
+import ProfilePic from "../assets/img/FacePic.jpeg";
 import "../js/MainDisplay.js";
 import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,7 +13,7 @@ export const NavBar = () =>
       <div className="Nav">
          <a> 
           <Link className="logo" to='/'>
-            <img className="subLogo" src={GokuFace} alt="logo"/>
+            <img className="subLogo" src={ProfilePic} alt="logo"/>
           </Link> 
         </a>
         <nav>
