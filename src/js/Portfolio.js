@@ -55,7 +55,7 @@ export const Portfolio = () =>
         <div className="text-container">
             <div className="flex-container">
                 <div name="Architecture" className="left-col slide-in">
-                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(15376, 18740)}</ReactMarkdown>
+                    <ReactMarkdown className="markdown" rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(15376, 18740)}</ReactMarkdown>
                     <div style={{display: "flex", padding: "100px 100px 100px 100px"}}>
                         <FontAwesomeIcon icon={faAws}  size="6x"  style={{margin: "0 50px 0 50px"}}/>
                         <FontAwesomeIcon icon={faJava} size="6x"  style={{margin: "0 50px 0 50px"}}/>
@@ -64,27 +64,27 @@ export const Portfolio = () =>
                 </div>
 
                 <div name="Toolng" className="right-col slide-in">
-                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(4617, 9142)}</ReactMarkdown>
+                    <ReactMarkdown className="markdown" rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(4617, 9142)}</ReactMarkdown>
                 </div>
             </div>
 
             <div className="flex-container">
                 <div name="Fullstack" className="left-col slide-in">
-                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(11309, 13415)}</ReactMarkdown>
+                    <ReactMarkdown className="markdown" rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(11309, 13415)}</ReactMarkdown>
                 </div>
 
                 <div name="Integration" className="right-col slide-in">
-                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(9140, 11312)}</ReactMarkdown>
+                    <ReactMarkdown className="markdown" rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(9140, 11312)}</ReactMarkdown>
                 </div>
             </div>
 
             <div className="flex-container">
                 <div name="Quality and Health" className="left-col slide-in">
-                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(295, 3390)}</ReactMarkdown>
+                    <ReactMarkdown className="markdown" rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(295, 3390)}</ReactMarkdown>
                 </div>
 
                 <div nam="Vision and Growth" className="right-col slide-in">
-                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(13410, 15379)}</ReactMarkdown>
+                    <ReactMarkdown className="markdown" rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(13410, 15379)}</ReactMarkdown>
                     <div style={{display: "flex", padding: "100px 100px 100px 100px"}}>
                         <FontAwesomeIcon icon={faJs}        size="6x"  style={{margin: "0 50px 0 50px"}}/>
                         <FontAwesomeIcon icon={faUbuntu}    size="6x"  style={{margin: "0 50px 0 50px"}}/>
@@ -95,13 +95,13 @@ export const Portfolio = () =>
             
             <div className="flex-container">
                 <div name="Programming Concepts" className="left-col slide-in">
-                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(3394, 4620)}</ReactMarkdown>
+                    <ReactMarkdown className="markdown" rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(3394, 4620)}</ReactMarkdown>
                 </div>
                 <div name="References" className="right-col slide-in">
-                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(18736, 20000)}</ReactMarkdown>
+                    <ReactMarkdown className="markdown" rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(18736, 20000)}</ReactMarkdown>
                     <br/><br/> 
                     <h2>References</h2>
-                    <ReactMarkdown rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(11, 295)}</ReactMarkdown>
+                    <ReactMarkdown className="markdown" rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget={"_blank"}>{content.slice(11, 295)}</ReactMarkdown>
                 </div>
             </div>
         </div>
