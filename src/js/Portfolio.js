@@ -70,7 +70,7 @@ export const Portfolio = () =>
                 <div name="Architecture" className="left-col slide-in">
                     <ReactMarkdown className="markdown" rehypePlugins={rehypeRaw} remarkPlugins={remarkGfm} linkTarget="_blank">{content.slice(15376, 18740)}</ReactMarkdown>
                     <div style={{display: "flex", padding: "100px 100px 100px 100px"}}>
-                            <FontAwesomeIcon icon={faAws}        size="6x"  style={{margin: "0 50px 0 50px"}}/>
+                            <FontAwesomeIcon icon={faAws}     size="6x"  style={{margin: "0 50px 0 50px"}}/>
                             <FontAwesomeIcon icon={faJava}    size="6x"  style={{margin: "0 50px 0 50px"}}/>
                             <FontAwesomeIcon icon={faGit}     size="6x"  style={{margin: "0 50px 0 50px"}}/>
                     </div>
